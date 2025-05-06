@@ -1,0 +1,8 @@
+### GET request to ping the graphql
+GRAPHQL localhost:888
+
+query PING {
+    ping
+}
+
+###
