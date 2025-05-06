@@ -4,5 +4,20 @@ GRAPHQL localhost:888
 query PING {
     ping
 }
+###
 
+### GET Testing Mutation ping
+GRAPHQL localhost:888
+
+mutation rootMutation {
+    pingMutation
+}
+###
+
+### POST Testing Mutation add
+GRAPHQL localhost:888
+
+mutation rootMutation {
+    add(num: 50, num2: 25)
+}
 ###
